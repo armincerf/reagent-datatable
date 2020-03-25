@@ -1,7 +1,12 @@
 # reagent-datatable
+
+## Reasoning
+
 A reagent table component with pagination, search, filters, sorting etc
 
-This is basically a rewrite of [this existing reagent table](https://github.com/Frozenlock/reagent-table) but with some extra features and hopefully nicer to read code (although thats still a work in progress...)
+React datatables are bulky and annoying to use in ClojureScript land and any existing ClojureScript tables are lacking in functionality with overly complex codebases. This project aims to provide a pure ClojureScript implementation of a data table which can easily be dropped into any project and used without much effort, whilst keeping the source code relativly readable so others can easily contribute and improve it.
+
+The only dependancy is reagent, although it would not be too difficult to rewrite this for other react wrappers as most of the code is made of pure functions.
 
 Current functionality:
 
